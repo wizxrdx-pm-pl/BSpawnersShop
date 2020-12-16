@@ -1,0 +1,38 @@
+# SpawnersShop Config File
+
+rarity-colors:
+# Options: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, and white
+  common: yellow
+  uncommon: blue
+  rare: gold
+  mythic: light_purple
+
+cost:
+  common: 10000
+  uncommon: 50000
+  rare: 200000
+  mythic: 500000
+
+rewards:
+# list of spawners:  
+# "bat", "bee", "blaze", "cavespider", "chicken", "cow", "creeper", "donkey", "elderguardian", "enderman", "endermite", "fox", "ghast",
+# "guardian", "horse", "husk", "irongolem", "llama", "magmacube", "mooshroom", "mule", "ocelot", "panda", "parrot", "pig", "polarbear",
+# "rabbit", "ravager", "sheep", "shulker", "silverfish", "skeleton", "slime", "snowgolem", "spider", "squid", "stray", "vex", "vindicator", 
+# "witch", "witherskeleton", "wolf", "zombie", "pigzombie", "zombievillager"
+#
+# You can repeat it as many as you want to increase probability
+  common:
+    - zombie
+    - zombie
+    - skeleton
+  uncommon:
+    - chicken
+    - cow
+    - pig
+  rare:
+    - slime
+    - creeper
+    - spider
+  mythic:
+    - guardian
+    - blaze

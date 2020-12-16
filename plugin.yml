@@ -1,0 +1,12 @@
+---
+name: BSpawnersShop
+main: TheCoolWizard\BSpawnersShop\Main
+version: 1
+api:
+  - 3.0.0
+author: TheCoolWizard
+depend: [BurgerSpawners, EconomyAPI, FormAPI]
+permissions:
+  bspawnersshop.spawnersshop:
+    default: true
+    description: "Allows the use of /spawnershop command"

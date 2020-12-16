@@ -1,0 +1,11 @@
+command:
+  use-in-game: "{RED}Command must be used in-game."
+  insufficient-funds: "{RED}Insufficient funds. You need ${AMOUNT} more."
+  inventory-full: "{RED}Your inventory is full."
+menu:
+  title: "{GREEN}SpawnersShop - Menu"
+  button: "{RARITY_COLOR}{RARITY}{NEWLINE}{RESET}Cost: ${AMOUNT}"
+  confirmation:
+    title: "{GREEN}SpawnersShop - Purchase Confirmation"
+    content: "Are you sure you want to purchase {RARITY_COLOR}{RARITY} Spawner for ${AMOUNT}?"
+    inventory-full: "{RED}Purchase cancelled. Your inventory is full."
